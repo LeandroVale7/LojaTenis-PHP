@@ -1,0 +1,550 @@
+/*PAULO HAITTY S.S.S 3°D*/
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+/*PAULO HAITTY S.S.S 3°D*/
+body {
+  animation: gradient 15s ease infinite;
+  background: linear-gradient(
+      -45deg,
+      /*#fca903,
+      #ee7752,
+      #e73c7e,
+      #23a6d5,
+      #23d5ab*/
+      #3c3c3c,
+      #3c3c3c,
+      #f5f5f5
+    )
+    no-repeat;
+  background-size: 300% 300%;
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  height: 100vh;
+  font-size: 150%;
+}
+
+.divisoria {
+  display: flex;
+  position: relative;
+  border-right: 1px solid white;
+  width: 0px;
+  height: 40px;
+  top: -5px;
+  right: -13px;
+}
+
+.center {
+  position: relative;
+}
+
+.centralizar {
+  margin-top: 250px;
+}
+
+/*.div_direita {
+	margin: 15px 150px auto auto;
+  margin-left: 250px;
+}*/
+
+.rodapeusuario1 button {
+  width: 100px;
+  margin-left: 100px;
+}
+
+.logar {
+  width: 110px;
+  height: 30px;
+  font-weight: bold;
+  font-size: 19px;
+  border: none;
+  transition: all 0.3s ease-in-out 0s;
+  color: #fff;
+  background: transparent;
+  border-radius: 50px;
+}
+/*PAULO HAITTY S.S.S 3°D*/
+.processacadastrotenis {
+  width: 140px;
+  height: 30px;
+  font-weight: bold;
+  font-size: 18px;
+  border: none;
+  transition: all 0.3s ease-in-out 0s;
+  color: #fff;
+  background: transparent;
+  border-radius: 50px;
+  margin-top: 20%;
+  margin-left: 80%;
+}
+
+.logar1 {
+  width: 110px;
+  height: 30px;
+  font-weight: bold;
+  font-size: 19px;
+  border: none;
+  transition: all 0.3s ease-in-out 0s;
+  color: #fff;
+  background: transparent;
+  border-radius: 50px;
+  margin-left: 10px;
+}
+
+.logar1 a {
+  text-decoration: none;
+  color: white;
+}
+
+.centerlogin {
+  background: transparent;
+  padding: 40px;
+  width: 30%;
+}
+
+.centerinicial {
+  background: transparent;
+  padding: 40px;
+}
+
+.titulo {
+  margin-top: -20px;
+  margin-bottom: 20px;
+  border-bottom: 2px solid white;
+  border-top: 2px solid white;
+  padding: 0px;
+  color: white;
+}
+/*PAULO HAITTY S.S.S 3°D*/
+.titulo h1 {
+  animation: is-bouncing1 1s ease-out alternate infinite;
+}
+
+.titulousuario {
+  margin-top: -20px;
+  margin-bottom: 20px;
+  border-bottom: 2px solid white;
+  border-top: 2px solid white;
+  padding: 0px;
+  color: white;
+}
+
+.titulousuario h1 {
+  animation: is-bouncing1 1s ease-out alternate infinite;
+}
+
+.topo {
+  margin-top: -300px;
+  margin-bottom: 0px;
+  width: 1100px;
+  height: 100px;
+  padding: 0px;
+  color: white;
+  border-bottom: 2px solid white;
+  border-top: 2px solid white;
+}
+
+.topo h1 {
+  padding-top: 15px;
+  padding-left: 50px;
+  color: white;
+}
+
+.coletadados {
+  margin: 20px;
+}
+
+.rodape {
+  height: 65px;
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: -20px;
+  border-top: 2px solid white;
+  border-bottom: 2px solid white;
+}
+/*PAULO HAITTY S.S.S 3°D*/
+.rodapecliente {
+  height: 100px;
+  width: 100%;
+  margin-top: 5px;
+  margin-bottom: -20px;
+  border-top: 2px solid white;
+  border-bottom: 2px solid white;
+}
+
+.rodapeinicial {
+  height: 100px;
+  width: 100%;
+  margin-top: 5px;
+  margin-bottom: -20px;
+  border-top: 2px solid white;
+  border-bottom: 2px solid white;
+}
+
+.rodapeusuario {
+  height: 66px;
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: -20px;
+  border-top: 2px solid white;
+  border-bottom: 2px solid white;
+}
+
+.rodapeusuario1 {
+  height: 66px;
+  width: 100%;
+  margin-top: 14px;
+  margin-bottom: -20px;
+}
+
+.cadastrousuario {
+  width: 120px;
+  height: 30px;
+  font-weight: bold;
+  font-size: 18px;
+  border: none;
+  transition: all 0.5s ease-in-out 0s;
+  color: #fff;
+  background: transparent;
+  margin-top: 18px;
+  border-radius: 20px;
+}
+
+.cadastrousuario1 {
+  width: 120px;
+  height: 30px;
+  font-weight: bold;
+  font-size: 18px;
+  border: none;
+  transition: all 0.5s ease-in-out 0s;
+  color: #fff;
+  background: transparent;
+  margin-top: 18px;
+  border-radius: 20px;
+  margin-left: 150px;
+}
+/*PAULO HAITTY S.S.S 3°D*/
+.cadastrousuario a {
+  text-decoration: none;
+  color: white;
+}
+
+.cadastrousuario1 a {
+  text-decoration: none;
+  color: white;
+}
+
+.rodapecadastra {
+  margin-top: 15px;
+}
+
+.topo_menu {
+  margin: -48px 15px 0px 0px;
+  padding-bottom: 0px;
+  text-align: right;
+}
+
+.topo_menu li {
+  display: inline-flex;
+  margin: 0px 8px;
+  text-align: center;
+}
+
+.topo_menu a {
+  text-decoration: none;
+  color: white;
+  width: 50px;
+  position: relative;
+  margin-left: 0px;
+}
+
+.conteudo {
+  margin-top: 5px;
+  height: 600px;
+  width: 100%;
+  border-top: 2px solid white;
+  border-bottom: 2px solid white;
+  position: relative;
+}
+
+.conteudocadastratenis {
+  margin-top: 5px;
+  height: 400px;
+  width: 100%;
+  border-top: 2px solid white;
+  border-bottom: 2px solid white;
+  position: relative;
+}
+/*PAULO HAITTY S.S.S 3°D*/
+.menu {
+  display: flex;
+  position: absolute;
+  top: 33%;
+  left: 14%;
+  text-decoration: none;
+  font-family: sans-serif;
+  font-size: 30px;
+}
+
+.menurel {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: 20%;
+  left: 4%;
+  text-decoration: none;
+  font-family: sans-serif;
+  font-size: 22px;
+}
+
+.menurel a{
+  text-decoration: none;
+  color: white;
+}
+
+.menu a{
+  text-decoration: none;
+  color: white;
+}
+
+.menu ul {
+  list-style: none;
+}
+/*PAULO HAITTY S.S.S 3°D*/
+.cadastratenis {
+  display: flex;
+  justify-content: center;
+  margin-top: 4%;
+  width: 100%;
+  text-align: center;
+}
+
+.exibetenis {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 4%;
+  border-spacing: 6px;
+}
+
+.alteratenis {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 8%;
+}
+
+.cadastrarusuario {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  margin-left: 166px;
+  border: none;
+  background: transparent;
+  transition: all 0.3s ease-in-out 0s;
+  border-radius: 50px;
+  color: #fff;
+  width: 110px;
+  height: 30px;
+  font-weight: bold;
+  font-size: 19px;
+}
+
+.cadastrarusuario a {
+  text-decoration: none;
+  color: black;
+}
+
+.cadastrartenis {
+  display: flex;
+  position: absolute;
+  top: 90%;
+  right: 2%;
+}
+/*PAULO HAITTY S.S.S 3°D*/
+.cadastrartenis a{
+  text-decoration: none;
+  color: white;
+}
+
+.btncadastratenis {
+  display: flex;
+  position: absolute;
+  top: 90%;
+  right: 2%;
+}
+
+.btnalteratenis {
+  display: flex;
+  position: absolute;
+  top: 90%;
+  right: 2%;
+}
+
+.btntenis {
+  background: transparent;
+  border: none;
+  color: white;
+  text-align: center;
+  font-size: 22px;
+}
+
+.back {
+  display: flex;
+  position: absolute;
+  top: 90%;
+  left: 2%;
+}
+
+.back a{
+  text-decoration: none;
+  color: white;
+}
+/*PAULO HAITTY S.S.S 3°D*/
+.finalizar {
+  display: flex;
+  position: absolute;
+  top: 90%;
+  right: 2%;
+}
+
+.finalizar a{
+  text-decoration: none;
+  color: white;
+}
+
+.link a{
+  text-decoration: none;
+  color: white;
+}
+/*PAULO HAITTY S.S.S 3°D*/
+.rel_estoque {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 2%;
+  border-spacing: 18px;
+}
+
+.totalvendas {
+  display: flex;
+  justify-content: center;
+  margin-top: 25%;
+}
+
+.totalcarrinho {
+  display: flex;
+  position: absolute;
+  bottom: 28px;
+  left: 45%;
+  justify-content: center; 
+}
+
+.rel_fun {
+  display: flex;
+  justify-content: center;
+  margin-top: 2%;
+  text-align: center;
+  border-spacing: 15px;
+}
+
+.funcionario {
+  display: flex;
+  justify-content: center;
+  margin-top: 4%;
+  text-align: center;
+  border-spacing: 12px; 
+}
+
+.altera_fun {
+  display: flex;
+  justify-content: center;
+  margin-top: 3%;
+  text-align: center;
+  border-spacing: 15px;
+}
+
+.vendas {
+  display: flex;
+  justify-content: center;
+  margin-top: 2%;
+  text-align: center;
+  border-spacing: 4px;  
+}
+
+.carrinho {
+  display: flex;
+  justify-content: center;
+  margin-top: 4%;
+  text-align: center;
+  border-spacing: auto; 
+}
+
+.borda {
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+}
+
+.ADM {
+  margin-top: 18%;
+  margin-left: 40%;
+}
+
+.btnalterafun {
+  display: flex;
+  position: absolute;
+  top: 90%;
+  right: 2%;
+}
+
+.btnaltera {
+  background: transparent;
+  border: none;
+  color: white;
+  text-align: center;
+  font-size: 22px;
+}
+
+.cadastrafun {
+  display: flex;
+  position: absolute;
+  top: 90%;
+  right: 2%;
+}
+
+.cadastrafun a{
+  text-decoration: none;
+  color: white;
+}
+/*PAULO HAITTY S.S.S 3°D*/
+.cadastrofun {
+  display: flex;
+  justify-content: center;
+  margin-top: 2%;
+  text-align: center;
+  border-spacing: 14px;
+}
+
+.vercar {
+  display: flex;
+  position: absolute;
+  top: 90%;
+  right: 2%; 
+}
+
+.vercar a{
+  text-decoration: none;
+  color: white;
+}
+
+.fechapedido {
+  display: flex;
+  position: absolute;
+  top: 90%;
+  left: 2%;
+}

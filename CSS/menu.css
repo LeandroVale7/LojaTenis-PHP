@@ -1,0 +1,281 @@
+.logar:hover {
+  background: transparent;
+  color: white;
+  /*transform: scale(1.3);*/
+  animation: is-bouncing1 1s ease-in alternate infinite;
+  border: 2px solid white;
+}
+
+.processacadastrotenis:hover {
+  background: transparent;
+  color: white;
+  transform: scale(1.1);
+  transform: ;
+  border: 2px solid white;
+  border-radius: 40px;
+  transition: ease 1s;
+  /*animation: is-bouncing1 1s ease-out alternate infinite*/
+}
+
+.logar1:hover {
+  background: transparent;
+  color: white;
+  /*transform: scale(1.3);*/
+  animation: is-bouncing1 1s ease-in alternate infinite;
+  border: 2px solid white;
+}
+
+.cadastrarusuario:hover {
+  background: transparent;
+  color: white;
+  /*transform: scale(1.3);*/
+  animation: is-bouncing1 1s ease-in alternate infinite;
+  border: 2px solid white;
+}
+
+.cadastrousuario:hover {
+  background: transparent;
+  color: white;
+  /*transform: scale(1.2);*/
+  border: 1px solid white;
+  animation: is-bouncing1 1s ease-in alternate infinite;
+}
+
+.cadastrartenis:hover {
+  background: transparent;
+  color: white;
+  /*transform: scale(1.2);*/
+  transition: ease 1s;
+  transform: scale(1.2);
+  /*animation: is-bouncing1 1s ease-out alternate infinite*/ 
+}
+
+.btntenis:hover {
+  background: transparent;
+  color: white;
+  /*transform: scale(1.2);*/
+  transition: ease .4s;
+  transform: scale(1.2);
+}
+
+.btnaltera:hover {
+  background: transparent;
+  color: white;
+  /*transform: scale(1.2);*/
+  transition: ease .4s;
+  transform: scale(1.2);
+}
+
+.link p:hover{
+  background: transparent;  
+  color: white;
+  transition: ease .4s;
+  transform: scale(1.3);
+  /*animation: is-bouncing1 1s ease-out alternate infinite*/
+}
+
+.link a:hover {
+  color: orange;
+}
+
+.back:hover {
+  background: transparent;
+  color: white;
+  /*transform: scale(1.2);*/
+  transition: ease 1s;
+  transform: scale(1.2);
+  /*animation: is-bouncing1 1s ease-out alternate infinite*/ 
+}
+
+.finalizar:hover {
+  background: transparent;
+  color: white;
+  /*transform: scale(1.2);*/
+  transition: ease 1s;
+  transform: scale(1.2);
+  /*animation: is-bouncing1 1s ease-out alternate infinite*/  
+}
+
+.cadastrousuario1:hover {
+  background: transparent;
+  color: white;
+  /*transform: scale(1.2);*/
+  border: 1px solid white;
+  animation: is-bouncing1 1s ease-out alternate infinite
+}
+
+.user-box input {
+  position: relative;
+  width: 100%;
+  padding: 10px 0;
+  font-size: 16px;
+  color: #fff;
+  margin-bottom: 30px;
+  border: none;
+  border-bottom: 2px solid #fff;
+  outline: none;
+  background: transparent;
+}
+
+.user-box label {
+  text-align: left;
+  font: sans-serif;
+  position: relative;
+  left: 0;
+  top: -60px;
+  padding: 10px 0;
+  font-size: 20px;
+  color: #fff;
+  transition: 0.5s;
+  margin-top: 0px;
+  top: -65px;
+}
+
+.user-box input:focus ~ label,
+.user-box input:valid ~ label {
+  top: -95px;
+  left: 0;
+  color: #fff;
+  font-size: 16px;
+}
+
+.user-boxcadastratenis input {
+  position: relative;
+  width: 100%;
+  padding: 10px 0;
+  font-size: 16px;
+  color: #fff;
+  margin-bottom: 30px;
+  border: none;
+  border-bottom: 2px solid #fff;
+  outline: none;
+  background: transparent;
+}
+
+.user-boxcadastratenis label {
+  text-align: left;
+  font: sans-serif;
+  position: relative;
+  left: 0;
+  top: -60px;
+  padding: 10px 0;
+  font-size: 20px;
+  color: #fff;
+  transition: 0.5s;
+  margin-top: 0px;
+  top: -65px;
+}
+
+.user-boxcadastratenis input:focus ~ label,
+.user-boxcadastratenis input:valid ~ label {
+  top: -95px;
+  left: 0;
+  color: #fff;
+  font-size: 16px;
+}
+
+.user-boxalterafun input {
+  position: relative;
+  width: 100%;
+  padding: 10px 0;
+  font-size: 16px;
+  color: #fff;
+  margin-bottom: 30px;
+  border: none;
+  border-bottom: 2px solid #fff;
+  outline: none;
+  background: transparent;
+}
+
+.user-boxalterafun label {
+  text-align: left;
+  font: sans-serif;
+  position: relative;
+  left: 0;
+  top: -60px;
+  padding: 10px 0;
+  font-size: 20px;
+  color: #fff;
+  transition: 0.5s;
+  margin-top: 0px;
+  top: -65px;
+}
+
+.user-boxalterafun input:focus ~ label,
+.user-boxalterafun input:valid ~ label {
+  top: -95px;
+  left: 0;
+  color: #fff;
+  font-size: 16px;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0 50%;
+  }
+}
+
+.topo_menu a:hover {
+  color: white;
+  border: 1px solid white;
+  border-radius: 40px;
+  transition: ease 0.5s;
+  animation: is-bouncing1 1s ease-in alternate infinite;
+  /*transform: translate3d(0px, -5px, 0px);*/
+}
+
+@keyframes is-bouncing {
+  to {
+    transform: translateY(20px);
+  }
+}
+
+@keyframes is-bouncing1 {
+  to {
+    transform: translateY(-14px);
+  }
+}
+
+.hover:hover {
+  transform: scale(1.2);
+  transition: .5s ease-in-out;
+}
+
+.menu li:hover {
+  background: transparent;
+  color: white;
+  /*transform: scale(1.2);*/
+  transition: ease 1s;
+  transform: scale(1.2);
+  /*animation: is-bouncing1 1s ease-out alternate infinite*/
+}
+
+.effect_foto:hover {
+  border: 5px solid cyan;
+}
+
+.cadastrafun:hover {
+  background: transparent;
+  color: white;
+  /*transform: scale(1.2);*/
+  transition: ease 1s;
+  transform: scale(1.2);
+  /*animation: is-bouncing1 1s ease-out alternate infinite*/
+}
+
+.vercar:hover {
+  background: transparent;
+  color: white;
+  /*transform: scale(1.2);*/
+  transition: ease 1s;
+  transform: scale(1.2);
+  /*animation: is-bouncing1 1s ease-out alternate infinite*/ 
+}
